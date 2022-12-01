@@ -11,7 +11,10 @@ $(function(){
       })
    })
 })
-
+// 自动点击
+function fun(){
+   $('#fun').click()
+}
 // 获取用户的基本信息
 function getUserInfo(){
     $.ajax({
